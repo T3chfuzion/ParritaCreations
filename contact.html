@@ -13,6 +13,7 @@
             background-size: cover;
             background-position: center;
             color: white;
+            text-align: center;
         }
         .jumbotron h1 {
             font-size: 2.5rem; /* Adjust font size for responsiveness */
@@ -34,10 +35,10 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ADEFD1;">
         <a class="navbar-brand" href="#">Parrita Creations</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #ADEFD1;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="background-color: #ADEFD1;">
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
@@ -46,45 +47,24 @@
                     <a class="nav-link" href="./products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Jumbotron for Contact -->
-    <div class="jumbotron text-center">
+    <div class="jumbotron">
         <h1 class="display-4">Contact Us</h1>
         <p class="lead">We’re here to assist you. Reach out to us with any questions or concerns.</p>
     </div>
 
-    <!-- Contact Form and Info -->
+    <!-- Contact Information -->
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6 mb-4 mb-md-0">
-                <h2>Send Us a Message</h2>
-                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                    <!-- Hidden input field for Netlify -->
-                    <input type="hidden" name="form-name" value="contact">
-                    
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" style="background-color: #ADEFD1; color: #000;">Send Message</button>
-                </form>                
-            </div>
-            <div class="col-md-6">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
                 <h2>Company Information</h2>
-                <p><strong>Email:</strong> phogan2886@gmail.com</p>
+                <p><strong>Email:</strong> parritasales@gmail.com</p>
                 <p><strong>Business Hours:</strong> Mon-Fri, 9am - 6pm</p>
             </div>
         </div>
