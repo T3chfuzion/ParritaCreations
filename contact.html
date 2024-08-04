@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-md-6 mb-4 mb-md-0">
                 <h2>Send Us a Message</h2>
-                <form action="send_mail.php" method="post">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
@@ -78,6 +78,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary" style="background-color: #ADEFD1; color: #000;">Send Message</button>
                 </form>
+                
             </div>
             <div class="col-md-6">
                 <h2>Company Information</h2>
