@@ -1,0 +1,13 @@
+/* styles.css */
+
+body {
+    background-color: #ADEFD1;
+}
+
+.jumbotron {
+    background-color: #00203F;
+}
+
+.card {
+    margin-bottom: 30px;
+}
